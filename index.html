@@ -11,104 +11,99 @@
   </head>
   <body>
     <!-- Barra de navegação -->
-    <nav id="header">
-      <div class="firstTextBar"><a href="#">Start Bootstrap<a/>
-      </div>
+    <nav class="navBar">
+      <div class="firstTextBar">Start Bootstrap</div>
       <div class="itens-menu">
-        <p class="item"><a href="#">Portlofio</a><p>
-        <p class="item"><a href="#">About</a></p>
-        <p class"item"><a href="#">Contact</a></p>
+        <ul>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
       </div>
     </nav>
-    <!-- Cabeçalho principal -->
-    <section id="main">
-      <header>
-        <div class="profile">
-          <img src="assets\images\profile.png" alt="Profile">
-        </div>
-        <h1 class="profileTitle">START BOOTSTRAP</h1>
-        <div class="whiteStar"><i class="fas fa-star fa-2x"></i></div>
-        <p> Web Developer - Graphic Artist - User Experience Designer</p>
-      </header>
+    <!-- Sessão principal -->
+    <section class="main">
+      <div class="profileImage">
+        <img src="assets\images\profile.png" alt="Profile">
+      </div>
+      <div class="titleMain">
+        <h1>Start Bootstrap</h1>
+        <!-- Estrela branca aqui -->
+      <!-- <div class="whiteStar">
+        <span><i class="fas fa-star fa-2x"></i></span>
+      </div> -->
+    </div>
+      <p>Web Developer - Graphic Artist - User Experience Designer</p>
     </section>
     <!-- Sessão Portfolio -->
-    <section id="portfolio">
-      <h2 class="portfolioTitle">PORTFOLIO</h2>
-      <div class="navyBlueStar"><i class="fas fa-star fa-2x"></i></div>
-      <!-- Primeira linha de 3 imagens -->
-      <div class="portfolioImagesFirstLine">
-        <div>
-          <img src="assets/images/portfolio/cabin.png" alt="A cabin">
-        </div>
-        <div>
-          <img src="assets/images/portfolio/cake.png" alt="A peace of cake">
-        </div>
-        <div>
-          <img src="assets/images/portfolio/circus.png" alt="A circurs">
-        </div>
-      </div>
-      <!-- Segunda linha de 3 imagens -->
-      <div class="portfolioImagensSecondLine">
-        <div>
-          <img src="assets/images/portfolio/game.png" alt="A game">
-        </div>
-        <div>
-          <img src="assets/images/portfolio/safe.png" alt="A safe">
-        </div>
-        <div>
-          <img src="assets/images/portfolio/submarine.png" alt="A submarine">
-        </div>
+    <section class="portfolio">
+      <h1>Portfolio</h1>
+      <!-- Estrela azul marinho aqui -->
+    <!-- <div class="navyBlueStar">
+      <span><i class="fas fa-star fa-2x"></i></span>
+    </div> -->
+      <div class="images">
+        <div class="formatImg cabinImg"></div>
+        <div class="formatImg cakeImg"></div>
+        <div class="formatImg circusImg"></div>
+        <div class="formatImg gameImg"></div>
+        <div class="formatImg safeImg"></div>
+        <div class="formatImg submarineImg"></div>
       </div>
     </section>
     <!-- Sessão About -->
-    <section id="about">
-      <h2 class="aboutTitle">ABOUT</h2>
-      <div class="whiteStar"><i class="fas fa-star fa-2x"></i></div>
+    <section class="about">
+      <h1>About</h1>
+      <!-- Estrela branca aqui -->
+    <!-- <div class="whiteStar">
+      <span><i class="fas fa-star fa-2x"></i></span>
+    </div> -->
       <div class="aboutText">
-        <p class="leftText">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-        <p class="rightText">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        <p class="leftText">Freelancer is a free bootstrap theme
+          created by Start Bootstrap. The
+          download includes the complete source
+          files including HTML, CSS, and
+          JavaScript as well as optional LESS
+          stylesheets for easy customization.</p>
+        <p class="rightText">Whether you're a student looking to
+          showcase your work, a professional
+          looking to attract clients, or a graphic
+          artist looking to share your projects, this
+          template is the perfect starting point!</p>
       </div>
       <!-- Botão para download -->
-      <div class="downloadTheme">
-        <a href="#" title="Download Theme!">
-          <button class="boxButtonDownload">
-          <i class="fas fa-download"></i> Download Theme
-          </button>
-        </a>
-      </div>
+      <button class="boxButtonDownload">
+        <i class="fas fa-download"></i> Download Theme
+        </button>
     </section>
     <!-- Sessão Contact Me -->
-    <section id="contact">
-      <h1 class="contactMeTitle">CONTACT ME</h1>
-      <div class="navyBlueStar"><i class="fas fa-star fa-2x"></i></div>
-        <form id="singleForm">
-        <div class="formatForm">
-            <input type="text" placeholder="Name">
-          </div>
-        <div class="formatForm">
-          <input type="text" placeholder="Email Adress">
-        </div>
-        <div class="formatForm">
-          <input type="text" placeholder="Phone Number">
-        </div>
-        <div class="formatForm">
-          <input type="text" placeholder="Message">
-        </div>
-        <div class="sendButton">
-          <button class="send" type="button">Send</button>
-        </div>
+    <section class="contact">
+      <h1>Contact Me</h1>
+      <!-- Estrela azul marinho aqui -->
+    <!-- <div class="navyBlueStar">
+      <span><i class="fas fa-star fa-2x"></i></span>
+    </div> -->
+      <form action="" class="singleForm">
+        <label for="text">Name</label>
+        <input type="text" class="name">
+        <label for="text">Email Adress</label>
+        <input type="text" class="email">
+        <label for="text">Phone Number</label>
+        <input type="text" class="phone">
+        <label for="text">Message</label>
+        <textarea name="msg" id="" cols="30" rows="10"></textarea>
+        <button class="send" type="button">Send</button>
       </form>
-      </div>
     </section>
     <!-- Rodapé -->
-    <footer id="endOfPage">
+    <footer class="infosFooter">
       <div class="locationAroundAbout">
-        <div>
-          <h4>LOCATION</h4>
+        <div class="location">
+          <h1>Location</h1>
           <p> 3481 Melrose Place </br> Beverly Hills, CA 90210</p>
         </div>
-        <div>
-          <h4>AROUND THE WEB</h4>
+        <div class="around">
+          <h1>Around the web</h1>
           <div class="linkMediaSocial">
             <div class="iconsMediaSocial" href="#"></a>
             <i class="fab fa-facebook-f fa-lg"></i>
@@ -127,14 +122,14 @@
             </div>
           </div>
         </div>
-        <div>
-          <h4>ABOUT FREELANCER</h4>
-          <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/" class="aboutFreelancerLink">Start Bootstrap<a/>.</p>
+        <div class="aboutFreelancer">
+          <h1>About freelancer</h1>
+          <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/" class="freelancerLink">Start Bootstrap<a/>.</p>
         </div>
       </div>
     </footer>
     <!-- Fim da página -->
-    <section id="copyright">
+    <section class="copyright">
       <p>Copyright © Your Website 2017</p>
     </section>
 
