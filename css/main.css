@@ -4,12 +4,35 @@
   line-height: 1.5;
 }
 
+.whiteStar {
+  color: white;
+}
+.navyBlueStar {
+  color: #2c3e50;
+}
+
+.lineWhite::after, .lineWhite::before {
+  display: inline-block;
+  width: 6rem;
+  vertical-align: 0.5625rem;
+  content: "";
+  border-top: 0.25rem solid white;
+}
+
+.navyBlueline::after, .navyBlueline::before {
+  display: inline-block;
+  width: 6rem;
+  vertical-align: 0.5625rem;
+  content: "";
+  border-top: 0.25rem solid #2c3e50;
+}
+
 /* Estilo barra de navegação */
 .navBar {
   display: flex;
   justify-content: space-between;
   background-color: #2c3e50;
-  padding: 22px 95px;
+  padding: 1.325rem 5.9375rem;
   text-transform: uppercase;
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
@@ -17,31 +40,31 @@
 }
 
 .firstTextBar {
-  padding-left: 70px;
-  font-size: 25px;
+  padding-left: 4.375rem;
+  font-size: 1.5625rem;
 }
 
 .itens-menu ul {
-  margin-right: 85px;
+  margin-right: 5.3125rem;
 }
 
 .itens-menu ul li {
   display: inline-block;
   text-transform: uppercase;
   list-style: none;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .itens-menu ul li a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: white;
 }
 
 /* Estilo da sessão Principal */
 .main {
   background-color: #18bc9c;
-  height: 630px;
+  height: 39.375rem;
 }
 
 .profileImage {
@@ -50,7 +73,7 @@
 }
 
 .profileImage img {
-  padding: 90px 0 0 0;
+  padding: 5.625rem 0 0 0;
 }
 
 .main h1 {
@@ -58,7 +81,7 @@
   justify-content: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: 800;
   color: white;
 }
@@ -66,9 +89,9 @@
 .main p {
   display: flex;
   justify-content: center;
-  padding: 55px;
+  padding: 1.4375rem;
   font-family: 'Lato', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: -0.07rem;
   color: white;
@@ -77,8 +100,8 @@
 /* Estilo da sessão Portfolio */
 .portfolio {
   text-align: center;
-  height: 790px;
-  padding: 80px 140px;
+  height: 49.375rem;
+  padding: 5rem 8.75rem;
 }
 
 .portfolio h1 {
@@ -95,13 +118,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 30px;
   }
 
 .formatImg {
-  margin: 15px;
-  width: 315px;
-  height: 225px;
+  margin: 0.9375rem;
+  width: 19.6875rem;
+  height: 14.0625rem;
 }
 
 .cabinImg {
@@ -137,7 +159,7 @@
 /* Estilo da Sessão About */
 .about {
   text-align: center;
-  padding: 80px 140px;
+  padding: 5.5rem 8.75rem;
   background-color: #18bc9c;
 }
 
@@ -153,26 +175,26 @@
 
 .aboutText {
   display: flex;
-  padding: 20px 180px;
+  padding: 0 11.25rem;
   color: white;
 }
 
 .leftText, .rightText {
   text-align: left;
-  padding: 25px;
+  padding: 1.5625rem;
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   color: white;
 }
 
 .boxButtonDownload {
   text-align: center;
   padding: 0.5rem 0.8rem;
-  border-width: 2px;
+  border-width: 0.125rem;
   border-radius: .25rem;
-  border: 2px solid white;
+  border: 0.125rem solid white;
   background-color: transparent;
   border-color: #f8f9fa;
   font-family: 'Lato', sans-serif;
@@ -184,7 +206,7 @@
 /* Estilo da sessão Contact Me */
 .contact {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 5.625rem;
 }
 .contact h1 {
   display: flex;
@@ -200,42 +222,41 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 345px;
-  margin-top: 45px;
-  margin-bottom: 100px;
+  padding: 0 21.5625rem;
+  margin-top: 1.5rem;
+  margin-bottom: 6.5rem;
   font-family: 'Lato', sans-serif;
 }
 
 .contact label {
   text-align: left;
-  padding: 20px 0 5px 0;
-  font-size: 22px;
+  padding: 1.25rem 0 0.3125rem 0;
+  font-size: 1.375rem;
   font-weight: 600;
   color: #9C9C9C;
 }
 
 .contact input {
   border-style: none;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 0.0625rem solid #E8E8E8;
 }
 
 .contact textarea {
   column-rule: 30;
   resize: none;
   border: 0;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 0.0625rem solid #E8E8E8;
 }
 
 .send {
   text-align: center;
-  margin-top: 20px;
-  /* padding: 0px; */
-  height: 50px;
-  width: 70px;
+  margin-top: 1.25rem;
+  height: 3.125rem;
+  width: 4.375rem;
   background-color: #18bc9c;
   border-color: #18bc9c;
-  border: 1px solid transparent;
-  border-radius: .25rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.25rem;
   font-size: 1.2rem;
   font-weight: 600;
   color: white;
@@ -244,18 +265,19 @@
 /* Estilo Rodapé */
 .infosFooter {
   text-align: center;
-  height: 200px;
-  padding-top: 40px;
+  height: 12.5rem;
+  padding-top: 2.5rem;
   background-color: #2c3e50;
 }
 
 .locationAroundAbout {
   display: flex;
   justify-content: center;
+  padding-top: 0.3125rem;
 }
 
 .location, .around, .aboutFreelancer {
-  width: 360px;
+  width: 22.5rem;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -277,19 +299,20 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding-top: 0.75rem;
   color: white;
 }
 
 .iconsMediaSocial {
-  width: 45px;
-  height: 45px;
-  margin: 5px;
-  border: 2px solid white;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  margin: 0.3125rem;
+  border: 0.125rem solid white;
   border-radius: 50%;
 }
 
 .fab {
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 
 .freelancerLink {
@@ -298,7 +321,7 @@
 }
 
 .copyright {
-  padding-top: 60px;
+  padding-top: 3.75rem;
   padding-bottom: 1.5rem;
   background-color: #2c3e50;
 }
@@ -306,7 +329,7 @@
 .copyright p {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: white;
 }
