@@ -4,31 +4,31 @@
   line-height: 1.5;
 }
 
-.whiteStar {
+.white-star {
   color: white;
 }
-.navyBlueStar {
+.navy-blue-star {
   color: #2c3e50;
 }
 
-.lineWhite::after, .lineWhite::before {
+.line-white::after, .line-white::before {
   display: inline-block;
   width: 6rem;
-  vertical-align: 0.5625rem;
+  vertical-align: .5625rem;
   content: "";
-  border-top: 0.25rem solid white;
+  border-top: .25rem solid white;
 }
 
-.navyBlueline::after, .navyBlueline::before {
+.navy-blue-line::after, .navy-blue-line::before {
   display: inline-block;
   width: 6rem;
-  vertical-align: 0.5625rem;
+  vertical-align: .5625rem;
   content: "";
-  border-top: 0.25rem solid #2c3e50;
+  border-top: .25rem solid #2c3e50;
 }
 
-/* Estilo barra de navegação */
-.navBar {
+/* Barra de navegação */
+.nav-bar {
   display: flex;
   justify-content: space-between;
   background-color: #2c3e50;
@@ -39,7 +39,7 @@
   color: white;
 }
 
-.firstTextBar {
+.first-text-bar {
   padding-left: 4.375rem;
   font-size: 1.5625rem;
 }
@@ -52,27 +52,27 @@
   display: inline-block;
   text-transform: uppercase;
   list-style: none;
-  padding: 0.3125rem;
+  padding: .3125rem;
 }
 
 .itens-menu ul li a {
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: .875rem;
   color: white;
 }
 
-/* Estilo da sessão Principal */
+/* Sessão principal */
 .main {
   background-color: #18bc9c;
   height: 39.375rem;
 }
 
-.profileImage {
+.profile-image {
   display: flex;
   justify-content: center;
 }
 
-.profileImage img {
+.profile-image img {
   padding: 5.625rem 0 0 0;
 }
 
@@ -93,11 +93,11 @@
   font-family: 'Lato', sans-serif;
   font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: -0.07rem;
+  letter-spacing: -.07rem;
   color: white;
 }
 
-/* Estilo da sessão Portfolio */
+/* Sessão Portfolio */
 .portfolio {
   text-align: center;
   height: 49.375rem;
@@ -120,43 +120,43 @@
   flex-wrap: wrap;
   }
 
-.formatImg {
-  margin: 0.9375rem;
+.format-img {
+  margin: .9375rem;
   width: 19.6875rem;
   height: 14.0625rem;
 }
 
-.cabinImg {
+.cabin-img {
   background-image: url("../assets/images/portfolio/cabin.png");
   background-size: contain;
 }
 
-.cakeImg {
+.cake-img {
   background-image: url("../assets/images/portfolio/cake.png");
   background-size: contain;
 }
 
-.circusImg {
+.circus-img {
   background-image: url("../assets/images/portfolio/circus.png");
   background-size: contain;
 }
 
-.gameImg {
+.game-img {
   background-image: url("../assets/images/portfolio/game.png");
   background-size: contain;
 }
 
-.safeImg {
+.safe-img {
   background-image: url("../assets/images/portfolio/safe.png");
   background-size: contain;
 }
 
-.submarineImg {
+.submarine-img {
   background-image: url("../assets/images/portfolio/submarine.png");
   background-size: contain;
 }
 
-/* Estilo da Sessão About */
+/* Sessão About */
 .about {
   text-align: center;
   padding: 5.5rem 8.75rem;
@@ -173,13 +173,13 @@
   color: white;
 }
 
-.aboutText {
+.about-text {
   display: flex;
   padding: 0 11.25rem;
   color: white;
 }
 
-.leftText, .rightText {
+.first-text, .second-text {
   text-align: left;
   padding: 1.5625rem;
   font-family: 'Lato', sans-serif;
@@ -189,12 +189,12 @@
   color: white;
 }
 
-.boxButtonDownload {
+.box-button-download {
   text-align: center;
-  padding: 0.5rem 0.8rem;
-  border-width: 0.125rem;
+  padding: .5rem .8rem;
+  border-width: .125rem;
   border-radius: .25rem;
-  border: 0.125rem solid white;
+  border: .125rem solid white;
   background-color: transparent;
   border-color: #f8f9fa;
   font-family: 'Lato', sans-serif;
@@ -203,7 +203,7 @@
   color: white;
 }
 
-/* Estilo da sessão Contact Me */
+/* Sessão Contact Me */
 .contact {
   text-align: center;
   padding-top: 5.625rem;
@@ -218,7 +218,7 @@
   color: #2c3e50;
 }
 
-.singleForm {
+.single-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,22 +230,22 @@
 
 .contact label {
   text-align: left;
-  padding: 1.25rem 0 0.3125rem 0;
+  padding: 1.25rem 0 .3125rem 0;
   font-size: 1.375rem;
   font-weight: 600;
-  color: #9C9C9C;
+  color: #9c9c9c;
 }
 
 .contact input {
   border-style: none;
-  border-bottom: 0.0625rem solid #E8E8E8;
+  border-bottom: .0625rem solid #e8e8e8;
 }
 
 .contact textarea {
   column-rule: 30;
   resize: none;
   border: 0;
-  border-bottom: 0.0625rem solid #E8E8E8;
+  border-bottom: .0625rem solid #e8e8e8;
 }
 
 .send {
@@ -255,67 +255,67 @@
   width: 4.375rem;
   background-color: #18bc9c;
   border-color: #18bc9c;
-  border: 0.0625rem solid transparent;
-  border-radius: 0.25rem;
+  border: .0625rem solid transparent;
+  border-radius: .25rem;
   font-size: 1.2rem;
   font-weight: 600;
   color: white;
 }
 
-/* Estilo Rodapé */
-.infosFooter {
+/* Rodapé */
+.infos-footer {
   text-align: center;
   height: 12.5rem;
   padding-top: 2.5rem;
   background-color: #2c3e50;
 }
 
-.locationAroundAbout {
+.location-around-about {
   display: flex;
   justify-content: center;
-  padding-top: 0.3125rem;
+  padding-top: .3125rem;
 }
 
-.location, .around, .aboutFreelancer {
+.location, .around, .about-freelancer {
   width: 22.5rem;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
-.infosFooter h1 {
+.infos-footer h1 {
   text-transform: uppercase;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
   font-size: 1.5rem;
   font-weight: 800;
 }
 
-.infosFooter p {
+.infos-footer p {
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
 }
 
-.linkMediaSocial {
+.media-social {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-top: 0.75rem;
+  padding-top: .75rem;
   color: white;
 }
 
-.iconsMediaSocial {
+.icons {
   width: 2.8125rem;
   height: 2.8125rem;
-  margin: 0.3125rem;
-  border: 0.125rem solid white;
+  margin: .3125rem;
+  border: .125rem solid white;
   border-radius: 50%;
 }
 
 .fab {
-  padding-top: 0.8rem;
+  padding-top: .8rem;
 }
 
-.freelancerLink {
+.freelancer-link {
   text-decoration: none;
   color: #18bc9c;
 }
@@ -329,7 +329,7 @@
 .copyright p {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 600;
   color: white;
 }
